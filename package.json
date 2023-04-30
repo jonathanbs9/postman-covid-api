@@ -1,0 +1,28 @@
+{
+  "name": "covid-api",
+  "version": "1.0.0",
+  "description": "Tests para API de Covid",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathanbs9/postman-covid-api.git"
+  },
+  "keywords": [
+    "api",
+    "postman",
+    "covid"
+  ],
+  "author": "Jonathan Brull Schroeder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonathanbs9/postman-covid-api/issues"
+  },
+  "homepage": "https://github.com/jonathanbs9/postman-covid-api#readme",
+  "dependencies": {
+    "newman": "^5.3.2",
+    "newman-reporter-htmlextra": "^1.22.11"
+  }
+}
