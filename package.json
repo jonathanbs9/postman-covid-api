@@ -4,7 +4,7 @@
   "description": "Tests para API de Covid",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "newman run Coronavirus_COVID19_API.postman_collection.json -e environments\\COVID19_API.postman_environment.json"
   },
   "repository": {
     "type": "git",
